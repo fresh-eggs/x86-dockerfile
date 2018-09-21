@@ -1,0 +1,4 @@
+DONT LOOK AT THE EXERCISES
+
+docker build <the_directory_the_dockerfile_is_in>
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it <docker_img> /bin/bash
