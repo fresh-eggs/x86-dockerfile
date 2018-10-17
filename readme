@@ -1,4 +1,18 @@
-DONT LOOK AT THE EXERCISES
+session_00
+-----------------------------------------------------------
+Collection of exercises that expect you to try and translate the assembly back into C.
 
+
+session_01
+-----------------------------------------------------------
+This session focuses on stack and call frame manipulation with r2.
+You are expected to debug the applications with r2 and fill out the questions for each exercise.
+The docker image has ASLR turned off to avoid you never getting the right answer!
+
+
+how2build
+-----------------------------------------------------------
 docker build <the_directory_the_dockerfile_is_in>
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it <docker_img> /bin/bash
+disable aslr -- echo 0 | sudo tee /proc/sys/kernel/randomize_va_space 
+https://askubuntu.com/questions/318315/how-can-i-temporarily-disable-aslr-address-space-layout-randomization
