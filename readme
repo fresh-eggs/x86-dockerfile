@@ -1,3 +1,8 @@
+halloween_hackfest_2019
+----------------------------------------------------------
+includes the reverse engineering challenges for the Shopify Halloween Hackfest 2019
+
+
 session_00
 -----------------------------------------------------------
 Collection of exercises that expect you to try and translate the assembly back into C.
